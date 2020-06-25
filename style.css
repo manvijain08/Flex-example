@@ -1,0 +1,63 @@
+.box {
+  width: 80%;
+  margin: 80px auto;
+  background-color: white;
+  padding: 2rem;
+}
+
+body {
+  background-image: linear-gradient(to right, #a9a9a9, pink);
+}
+/* 
+.header {
+  background-color: white;
+} */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 2.8rem 2rem; */
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  font-size: 1rem;
+  /* padding-right: 2rem; */
+  text-decoration: none;
+}
+
+.nav-element {
+  padding-left: 2rem;
+}
+
+.one {
+  /* padding-left: 2rem; */
+  padding-top: 0%;
+  font-size: large;
+  color: black;
+  align-content: flex-start;
+}
+
+.p {
+  font-size: medium;
+}
+
+.boss {
+  color: blueviolet;
+}
+
+.parent {
+  padding-top: 2%;
+  /* padding-left: 2rem; */
+  display: flex;
+  font-size: medium;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.son {
+  display: flex;
+  justify-content: space-between;
+}
